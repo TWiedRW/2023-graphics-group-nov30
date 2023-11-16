@@ -1,0 +1,71 @@
+---
+title: "Experiential Learning with 3D Graphics"
+subtitle: "Graphics Group Presentation"
+date: "2023-11-30"
+author: "Tyler Wiederich"
+institute: "University of Nebraska-Lincoln, Department of Statistics"
+format: 
+  revealjs:
+    logo: images/unl-logo.svg
+---
+
+# Overview
+
+- A study on 3D printed graphs
+- Integration with STAT 218
+
+# A study on 3D printed graphs
+
+## Inspiration
+
+In 1984, Cleveland and McGill conducted studies on elementary perceptual tasks (EPTs)
+
+- Basic building blocks of how people extract quantitative information from graphs
+
+![](images/cm-epts.png){fig-align='center'}
+
+---
+
+
+
+## Inspiration
+
+Cleveland and McGill conducted two studies comparing position along a common scale, length, and angle
+
+- Participants had to estimate the ratio between two measurements
+
+- Accuracy: Position > Length > Angle
+
+
+![](images/cm-exp1.png){fig-align='center'}
+
+## Inspiration
+
+The theory for volume comparisons was ranked low by Cleveland and McGill. Several studies (some references here) show that people make less accurate judements using 3D graphs than 2D graphs.
+
+![](images/excel-3d.png){fig-align='center'}
+
+
+## Designing a study
+
+Partially replicate Cleveland and McGill using similar graphs and ratio comparisons.
+
+- Ratios
+- Graph type
+- Comparisons adjacent or separated (Type 1/3)
+
+---
+
+![](images/kit-contents.png)
+
+## Results from pilot study
+
+Sample size of around 40 participants, consisting of members of the UNL department of statistics and their adult roommates.
+
+- Response: $\log_2(|\text{Observed}-\text{Actual}| + 1/8)$
+- Nothing significant!
+
+![](images/static3d.png){fig-align='center'}
+
+# Experiential Learning with STAT 218
+
