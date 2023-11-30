@@ -21,7 +21,7 @@ format:
 
 ## Inspiration
 
-In 1984, Cleveland and McGill conducted studies on elementary perceptual tasks (EPTs).
+Cleveland and McGill [-@cleveland_graphical_1984] conducted studies on elementary perceptual tasks (EPTs).
 
 - Basic building blocks of how people extract quantitative information from graphs.
 
@@ -33,10 +33,10 @@ In 1984, Cleveland and McGill conducted studies on elementary perceptual tasks (
 
 ## Inspiration
 
-Cleveland and McGill conducted two studies comparing position along a common scale, length, and angle.
+The experiments that Cleveland and McGill conducted focused on position, length, and angle.
 
 :::{.incremental}
-- Participants had to estimate the ratio between two measurements.
+- Participants had to estimate the ratio between two measurements (10 ratios per graph).
 
 - Accuracy: Position > Length > Angle
 :::
@@ -64,9 +64,13 @@ The theory for volume comparisons was ranked low by Cleveland and McGill. Severa
 
 Partially replicate Cleveland and McGill using similar graphs and ratio comparisons.
 
-- Ratios
+- Ratios (7 unique ratios)
 - Graph type (2D / 3D interactive / 3D printed)
 - Comparisons adjacent or separated (Type 1 / 3)
+
+:::{.incremental}
+- 42 unique treatment combinations
+:::
 
 
 ![](images/kit-contents.png){width=90% fig-aligh='center'}
@@ -106,7 +110,7 @@ The overall goal is to assess how students learn about the statistical process b
 
 :::
 
-Our sample consists of 23 STAT 218 online students from the July-August summer session of 2023.
+Our sample consists of 23 STAT 218 online students from the July-August summer session of 2023 (most students completed every reflection).
 
 
 ## Pre-Experiment Question
