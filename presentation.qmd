@@ -1,12 +1,15 @@
 ---
 title: "Experiential Learning with 3D Graphics"
 subtitle: "Graphics Group Presentation"
-date: "2023-11-30"
+date: "November 30, 2023"
 author: "Tyler Wiederich"
 institute: "University of Nebraska-Lincoln, Department of Statistics"
+bibliography: references.bib
 format: 
   revealjs:
-    logo: images/unl-logo.svg
+    self-contained: true
+    theme: [styles.css, fonts.css, default]
+    logo: images/N.svg
 ---
 
 # Overview
@@ -18,9 +21,9 @@ format:
 
 ## Inspiration
 
-In 1984, Cleveland and McGill conducted studies on elementary perceptual tasks (EPTs)
+In 1984, Cleveland and McGill conducted studies on elementary perceptual tasks (EPTs).
 
-- Basic building blocks of how people extract quantitative information from graphs
+- Basic building blocks of how people extract quantitative information from graphs.
 
 ![](images/cm-epts.png){fig-align='center'}
 
@@ -30,20 +33,31 @@ In 1984, Cleveland and McGill conducted studies on elementary perceptual tasks (
 
 ## Inspiration
 
-Cleveland and McGill conducted two studies comparing position along a common scale, length, and angle
+Cleveland and McGill conducted two studies comparing position along a common scale, length, and angle.
 
-- Participants had to estimate the ratio between two measurements
+:::{.incremental}
+- Participants had to estimate the ratio between two measurements.
 
 - Accuracy: Position > Length > Angle
+:::
 
 
 ![](images/cm-exp1.png){fig-align='center'}
 
 ## Inspiration
 
-The theory for volume comparisons was ranked low by Cleveland and McGill. Several studies (some references here) show that people make less accurate judements using 3D graphs than 2D graphs.
+The theory for volume comparisons was ranked low by Cleveland and McGill. Several studies show that people make less accurate judgments using 3D graphs than 2D graphs [@barfield_effects_1989; @zacks_reading_1998].
+
+:::{.incremental}
+
+- These studies focus on the projection of 3D graphs on 2D surfaces!
+
+- What would happen if we use true 3D dimensional graphs?
+
+:::
 
 ![](images/excel-3d.png){fig-align='center'}
+
 
 
 ## Designing a study
@@ -51,21 +65,197 @@ The theory for volume comparisons was ranked low by Cleveland and McGill. Severa
 Partially replicate Cleveland and McGill using similar graphs and ratio comparisons.
 
 - Ratios
-- Graph type
-- Comparisons adjacent or separated (Type 1/3)
+- Graph type (2D / 3D interactive / 3D printed)
+- Comparisons adjacent or separated (Type 1 / 3)
+
+
+![](images/kit-contents.png){width=90% fig-aligh='center'}
 
 ---
 
-![](images/kit-contents.png)
+![](images/kit18.JPG){fig-align='center'}
+
 
 ## Results from pilot study
 
 Sample size of around 40 participants, consisting of members of the UNL department of statistics and their adult roommates.
 
 - Response: $\log_2(|\text{Observed}-\text{Actual}| + 1/8)$
+
+::: {.incremental}
+
 - Nothing significant!
+
+:::
 
 ![](images/static3d.png){fig-align='center'}
 
 # Experiential Learning with STAT 218
 
+## Experiential Learning with STAT 218
+
+The overall goal is to assess how students learn about the statistical process by participating in an experiment through a series of reflections.
+
+
+:::{.incremental}
+
+- Pre-experiment
+- Post-experiment
+- Abstract
+- Video presentation
+
+:::
+
+Our sample consists of 23 STAT 218 online students from the July-August summer session of 2023.
+
+
+## Pre-Experiment Question
+
+- In this class, you'll be learning about the process of scientific investigation. What do you think that process looks like, from the perspective of a researcher, compared to what it looks like from the perspective of someone in the general public who is a consumer of scientific results? Write a paragraph (at least 3-5 sentences) about how you think science happens.
+
+
+![](images/wordclouds/q3.png){fig-align='center'}
+
+
+## Post-Experiment Questions
+
+::: {.incremental}
+
+- What do you think the purpose of the experiment was?
+
+- What hypotheses might the experimenter have been testing?
+
+- What sources of error are involved in this experiment?
+
+- What variables were examined? For each variable, identify whether it was quantitative or categorical.
+
+- What elements of experimental design, such as randomization or the use of a control group, do you think were present in the experiment? Why?
+
+:::
+
+## Post-Experiment Questions
+
+- What do you think the purpose of the experiment was?
+
+- <span style="color: #D3D3D3;">What hypotheses might the experimenter have been testing?</span>
+
+- <span style="color: #D3D3D3;">What sources of error are involved in this experiment?</span>
+
+- <span style="color: #D3D3D3;">What variables were examined? For each variable, identify whether it was quantitative or categorical.</span>
+
+- What elements of experimental design, such as randomization or the use of a control group, do you think were present in the experiment? Why?
+
+
+
+
+
+## Post-Experiment Responses
+
+**What do you think the purpose of the experiment was?**
+
+:::{.incremental}
+
+- "To see how well we identified the larger bar and how well we could guess the proportion."
+
+- "They could be trying to determine how different genders, ages, etc. perceive the sizes of the bars in the graph. Demographics could make a pretty significant difference."
+
+- "I think the purpose of the experiment was to compare how the general public reads and interprets graphs in different formats compared to scientists, and how they analyze experiments."
+
+:::
+
+![](images/wordclouds/q5.png){fig-align='center'}
+
+
+## Post-Experiment Responses
+
+**What elements of experimental design, such as randomization or the use of a control group, do you think were present in the experiment?**
+
+:::{.incremental}
+
+- "Sex and race of the participants is random as it is unknown by the researcher. Because the researcher does not know who of the stats students will take the extra credit."
+
+- "I feel like all the same graphs were used for everybody. Since there weren't very many, this could have possibly created unnecessary outliers."
+
+:::
+
+::: {.notes}
+- Many responses mentioned a control group being STAT 218 students or those who signed up for extra credit
+:::
+
+
+![](images/wordclouds/q9.png){fig-align='center'}
+
+## Abstract Reflection
+
+**What components of the experiment are clearer now than they were as a participant? What questions do you still have for the experimenter? Write 3-5 sentences reflecting on the abstract.**
+
+:::{.incremental}
+
+- "The entire purpose of the experiment makes a lot more sense now that I've read the abstract. I don't have a math brain, so it never occurred to me that the different types of bar graphs could cause people to interpret results differently. It's amazing to me how differently I see the study with the end goal in mind. I would really struggle to understand the results because the equations they used in the abstract don't mean anything to me, so I would ask about that if I could."
+
+:::
+
+![](images/wordclouds/q10.png){fig-align='center'}
+
+
+## Presentation Reflection
+
+::: {.incremental}
+
+- How did the information you gained from the components of this project (participation, post-study reflection, extended abstract, presentation) differ?
+
+- What components were emphasized in the presentation that weren't emphasized in the abstract? Why do you think that is?
+
+- What critiques do you have of this study and its design? What would have made the study better?
+
+    - Note: had to fix bugs while experiment was active
+
+- If you had to hear about this study using only the extended abstract or only the presentation, which one would you prefer? Which one would be better for determining whether the experiment was well designed?
+
+:::
+
+## Presentation Responses
+
+**How did the information you gained from the components of this project differ?**
+
+:::{.incremental}
+
+- "While actively participating in the study, I had some doubts about the purpose of the experiment and thought that it was kind of a waste of time. After reading the abstract and watching the presentation, I have a new found respect for the purpose and reasoning behind the design of the experiment."
+
+- "The information gained progressively became more interactive and communicative of the study and what the purpose of it was."
+
+:::
+
+![](images/wordclouds/q11.png){fig-align='center'}
+
+
+# Future work
+
+## Future work
+
+::: {.incremental}
+
+- Same experiment in progress for Fall 2023 semester
+
+- Create coding scheme to turn open ended responses into meaningful variables
+
+- Implement experiment in Spring 2024 semester (train new TA's how to give experiment)
+
+    - Tweak questions for clarity
+
+- Summer/Fall 2024: design experiment around heatmaps
+
+    - Simplify factors (currently 42 factor combinations)
+    
+    - Use one package for consistent graphing methods
+    
+:::
+
+
+# Questions and Discussion
+
+
+## References
+
+:::{#Refs}
+:::
